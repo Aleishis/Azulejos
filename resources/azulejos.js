@@ -2,12 +2,12 @@
 // DOM: Document Object Model
 document.addEventListener("DOMContentLoaded", function(){
 
-    // Declaramos una variable en JS que representa el "btn-ok" en el HTML
+    // Declaramos una variable en JS que representa el "btn-calcular" en el HTML
     var btnOk = document.getElementById("btn-calcular");
 
     // Declaramos un evento "click" a ese boton
     btnOk.addEventListener("click", function(){
-        // Declaramos una variable que representa el input del HTML
+        // Declaramos tres variables  que representan los inputs para largo, ancho y precio del HTML
         var largo = parseFloat(document.getElementById("largo").value);
         
         var ancho = parseFloat(document.getElementById("ancho").value)

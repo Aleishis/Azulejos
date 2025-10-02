@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 
     // Declaramos una variable en JS que representa el "btn-ok" en el HTML
-    var btnOk = document.getElementById("btn-sumar");
+    var btnOk = document.getElementById("btn-calcular");
 
     // Declaramos un evento "click" a ese boton
     btnOk.addEventListener("click", function(){

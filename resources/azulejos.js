@@ -25,11 +25,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
         var area_azulejo = 25 * 25
 
-        var costo = (area / area_azulejo) * precio
+        var cantidad = area / area_azulejo
+
+        var costo = cantidad * precio
 
 
         
-        alert("El costo sera de: " + costo)
+        alert(
+        "Superficie total: " + area.toFixed(2) + " cm²" +
+        "\nCantidad de azulejos: " + cantidad.toFixed(2) +
+        "\nPrecio total: $" + costo.toFixed(2))
 
     })
 })

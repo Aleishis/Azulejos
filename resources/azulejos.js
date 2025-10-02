@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function(){
         
         var ancho = parseFloat(document.getElementById("ancho").value)
 
+        var precio = parseFloat(document.getElementById("precio").value)
+
 
         // isNaN = is not a number
         if (isNaN(largo) || isNaN(ancho)){
@@ -19,10 +21,15 @@ document.addEventListener("DOMContentLoaded", function(){
         }
 
         
+        var area = (largo*100) * (ancho*100);
 
-        var resultado = value1Number + value2Number
-        // Mostamos alerta del navegador con el contenido del input
-        alert("El resultado es: " + resultado)
+        var area_azulejo = 25 * 25
+
+        var costo = (area / area_azulejo) * precio
+
+
+        
+        alert("El costo sera de: " + costo)
 
     })
 })

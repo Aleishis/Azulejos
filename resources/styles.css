@@ -63,8 +63,7 @@ footer{
     color: white;
     padding: 20px;
 }
-
-.button-container{
-    
-    text-align: right;
+footer p{
+    margin: 0;
+    font-size: 20px;
 }

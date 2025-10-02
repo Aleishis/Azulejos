@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
         // isNaN = is not a number
-        if (isNaN(largo) || isNaN(ancho)){
+        if (isNaN(largo) || isNaN(ancho) || isNaN(precio)){
             alert("Solo puedes ingresar numeros")
         }
 
